@@ -15,7 +15,7 @@ Firefox advanced settings for increased privacy and security
 
     network.http.http3.enabled = true
 
-## Enable Delegated Credentials
+## Enable TLS Delegated Credentials
 
     security.tls.enable_delegated_credentials = true
 
