@@ -63,6 +63,11 @@ Firefox advanced settings for increased privacy and security.
     privacy.trackingprotection.socialtracking.enabled = true
     privacy.donottrackheader.enabled = true
 
+## Disable WebRTC
+
+    media.peerconnection.enabled = false
+    media.navigator.enabled = false
+
 ## Disable Referral Headers
 
     network.http.sendRefererHeader = 0
@@ -76,5 +81,3 @@ Firefox advanced settings for increased privacy and security.
 
     browser.cache.disk.enable = false
     browser.privatebrowsing.forceMediaMemoryCache = true
-    media.peerconnection.enabled = false
-    media.navigator.enabled = false
