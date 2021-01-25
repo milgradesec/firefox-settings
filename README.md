@@ -11,7 +11,7 @@ Firefox advanced settings for increased privacy and security
 
     network.security.esni.enabled = true
 
-## Enable HTTP3/QUIC
+## Enable HTTP3
 
     network.http.http3.enabled = true
 
