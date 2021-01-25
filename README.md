@@ -42,9 +42,10 @@ Firefox advanced settings for increased privacy and security.
     security.ssl3.rsa_aes_256_sha = false
     security.ssl3.rsa_des_ede3_sha = false
 
-## Disable OCSP Checking
+## Enforce OCSP Checking
 
-    security.OCSP.enabled = 0
+    security.OCSP.enabled = 1
+    security.OCSP.require = true
 
 ## Resist Fingerprinting
 
