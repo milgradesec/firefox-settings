@@ -49,6 +49,7 @@ Firefox advanced settings for increased privacy and security.
 ## Resist Fingerprinting
 
     privacy.resistFingerprinting = true
+    privacy.spoof_english = 2
 
 ## Disable Battery Status API
 
