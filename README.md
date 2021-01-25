@@ -56,6 +56,7 @@ Firefox advanced settings for increased privacy and security
     privacy.trackingprotection.fingerprinting.enabled = true
     privacy.trackingprotection.cryptomining.enabled = true
     privacy.trackingprotection.socialtracking.enabled = true
+    privacy.donottrackheader.enabled = true
 
 ## Enable HTTPS-Only Mode
 
@@ -65,5 +66,4 @@ Firefox advanced settings for increased privacy and security
 ## Others
 
     network.http.sendRefererHeader = 0
-    privacy.donottrackheader.enabled = true
     browser.cache.disk.enable = false
