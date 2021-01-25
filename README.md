@@ -68,6 +68,10 @@ Firefox advanced settings for increased privacy and security.
     media.peerconnection.enabled = false
     media.navigator.enabled = false
 
+## Disable Geolocation
+
+    geo.enabled = false
+
 ## Disable Referral Headers
 
     network.http.sendRefererHeader = 0
