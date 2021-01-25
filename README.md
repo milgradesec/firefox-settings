@@ -68,3 +68,4 @@ Firefox advanced settings for increased privacy and security.
 
     network.http.sendRefererHeader = 0
     browser.cache.disk.enable = false
+    browser.privatebrowsing.forceMediaMemoryCache = true
