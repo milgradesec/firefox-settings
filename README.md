@@ -50,6 +50,10 @@ Firefox advanced settings for increased privacy and security.
 
     privacy.resistFingerprinting = true
 
+## Disable Battery Status API
+
+    dom.battery.enabled = false
+
 ## Tracking Protection
 
     privacy.firstparty.isolate = true
@@ -69,3 +73,5 @@ Firefox advanced settings for increased privacy and security.
     network.http.sendRefererHeader = 0
     browser.cache.disk.enable = false
     browser.privatebrowsing.forceMediaMemoryCache = true
+    media.peerconnection.enabled = false
+    media.navigator.enabled = false
