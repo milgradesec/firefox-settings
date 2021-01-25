@@ -41,6 +41,13 @@ Firefox advanced settings for increased privacy and security
 
     privacy.resistFingerprinting = true
 
+## Tracking Protection
+
+    privacy.trackingprotection.enabled = true
+    privacy.trackingprotection.fingerprinting.enabled = true
+    privacy.trackingprotection.cryptomining.enabled = true
+    privacy.trackingprotection.socialtracking.enabled = true
+
 ## Enable HTTPS-Only Mode
 
     dom.security.https_only_mode = true
