@@ -51,3 +51,4 @@ Firefox advanced settings for increased privacy and security
     network.http.sendRefererHeader = 0
     privacy.donottrackheader.enabled = true
     security.OCSP.enabled = 0
+    browser.cache.disk.enable = false
