@@ -52,6 +52,7 @@ Firefox advanced settings for increased privacy and security.
 
 ## Tracking Protection
 
+    privacy.firstparty.isolate = true
     privacy.trackingprotection.enabled = true
     privacy.trackingprotection.fingerprinting.enabled = true
     privacy.trackingprotection.cryptomining.enabled = true
