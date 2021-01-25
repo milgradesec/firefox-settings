@@ -1,4 +1,4 @@
-# Firefox-settings
+# Firefox Advanced Settings
 
 Firefox advanced settings for increased privacy and security.
 
