@@ -11,6 +11,10 @@ Firefox advanced settings for increased privacy and security
 
     network.security.esni.enabled = true
 
+## Enable HTTP3/QUIC
+
+    network.http.http3.enabled = true
+
 ## Enable Delegated Credentials
 
     security.tls.enable_delegated_credentials = true
