@@ -1,6 +1,6 @@
 # Firefox-settings
 
-Firefox advanced settings for increased privacy and security
+Firefox advanced settings for increased privacy and security.
 
 ## Configure DNS over HTTPS
 
