@@ -11,6 +11,11 @@ Firefox advanced settings for increased privacy and security
 
     network.security.esni.enabled = true
 
+## Enable Encrypted Client Hello
+
+    network.dns.echconfig.enabled = true
+    network.dns.use_https_rr_as_altsvc = true
+
 ## Enable HTTP3
 
     network.http.http3.enabled = true
