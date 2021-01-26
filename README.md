@@ -56,6 +56,10 @@ Firefox advanced settings for increased privacy and security.
 
     dom.battery.enabled = false
 
+## Reject Third-Party Cookies
+
+    network.cookie.cookieBehavior = 1
+
 ## Tracking Protection
 
     privacy.firstparty.isolate = true
