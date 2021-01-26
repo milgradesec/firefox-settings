@@ -69,6 +69,10 @@ Firefox advanced settings for increased privacy and security.
     privacy.trackingprotection.socialtracking.enabled = true
     privacy.donottrackheader.enabled = true
 
+## Enable Containers
+
+    privacy.userContext.enabled = true
+
 ## Disable WebRTC
 
     media.peerconnection.enabled = false
