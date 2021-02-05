@@ -67,6 +67,7 @@ Firefox advanced settings for increased privacy and security.
     privacy.trackingprotection.fingerprinting.enabled = true
     privacy.trackingprotection.cryptomining.enabled = true
     privacy.trackingprotection.socialtracking.enabled = true
+    privacy.socialtracking.block_cookies.enabled = true
     privacy.donottrackheader.enabled = true
 
 ## Enable Containers
