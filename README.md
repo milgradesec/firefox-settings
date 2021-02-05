@@ -16,7 +16,7 @@ Firefox advanced settings for increased privacy and security.
     network.dns.echconfig.enabled = true
     network.dns.use_https_rr_as_altsvc = true
 
-## Enable HTTP3
+## Enable HTTP3/QUIC
 
     network.http.http3.enabled = true
 
