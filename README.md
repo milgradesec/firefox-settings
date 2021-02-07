@@ -73,6 +73,7 @@ Firefox advanced settings for increased privacy and security.
 ## Enable Containers
 
     privacy.userContext.enabled = true
+    privacy.userContext.ui.enabled = true
 
 ## Disable WebRTC
 
