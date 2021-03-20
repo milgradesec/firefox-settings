@@ -94,4 +94,5 @@ Firefox advanced settings for increased privacy and security.
     browser.cache.disk.enable = false
     browser.cache.disk_cache_ssl = false
     browser.privatebrowsing.forceMediaMemoryCache = true
+
 ## Others
