@@ -5,11 +5,8 @@ Firefox advanced settings for increased privacy and security.
 ## Configure DNS over HTTPS
 
     network.trr.mode = 2
-    network.trr.uri = https://doh.paesa.es/dns-query
-
-## Enable Encrypted SNI
-
-    network.security.esni.enabled = true
+    network.trr.uri = https://dns.paesa.es/dns-query{?dns}
+    network.trr.useGET = true
 
 ## Enable Encrypted Client Hello
 
