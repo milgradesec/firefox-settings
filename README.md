@@ -76,11 +76,6 @@ Firefox advanced settings for increased privacy and security.
     privacy.userContext.enabled = true
     privacy.userContext.ui.enabled = true
 
-## Disable WebRTC
-
-    media.peerconnection.enabled = false
-    media.navigator.enabled = false
-
 ## Enable HTTPS-Only Mode
 
     dom.security.https_only_mode = true
