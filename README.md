@@ -71,6 +71,20 @@ Firefox advanced settings for increased privacy and security.
     privacy.socialtracking.block_cookies.enabled = true
     privacy.donottrackheader.enabled = true
 
+## Disable Telemetry
+
+    toolkit.telemetry.enabled = false
+    toolkit.telemetry.unified = false
+    toolkit.telemetry.archive.enabled = false
+    toolkit.telemetry.shutdownPingSender.enabled = false
+    toolkit.telemetry.firstShutdownPing.enabled = false
+    toolkit.telemetry.updatePing.enabled = false
+    toolkit.telemetry.newProfilePing.enabled = false
+    toolkit.telemetry.bhrPing.enabled = false
+    browser.ping-centre.telemetry = false
+    browser.newtabpage.activity-stream.feeds.telemetry = false
+    browser.newtabpage.activity-stream.telemetry = false
+
 ## Enable Containers
 
     privacy.userContext.enabled = true
