@@ -63,13 +63,14 @@ Firefox advanced settings for increased privacy and security.
 
 ## Tracking Protection
 
-    privacy.firstparty.isolate = true
     privacy.trackingprotection.enabled = true
     privacy.trackingprotection.fingerprinting.enabled = true
     privacy.trackingprotection.cryptomining.enabled = true
     privacy.trackingprotection.socialtracking.enabled = true
     privacy.socialtracking.block_cookies.enabled = true
+    privacy.firstparty.isolate = true
     privacy.donottrackheader.enabled = true
+    network.http.sendRefererHeader = 0
 
 ## Disable Telemetry
 
@@ -84,6 +85,11 @@ Firefox advanced settings for increased privacy and security.
     browser.ping-centre.telemetry = false
     browser.newtabpage.activity-stream.feeds.telemetry = false
     browser.newtabpage.activity-stream.telemetry = false
+
+## Disable Pocket
+
+    extensions.pocket.enabled = false
+    services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includePocket = false
 
 ## Enable Containers
 
@@ -101,3 +107,9 @@ Firefox advanced settings for increased privacy and security.
     browser.privatebrowsing.forceMediaMemoryCache = true
 
 ## Others
+
+    pdfjs.enableScripting = false    // Disable Javascript on PDF files
+    geo.enabled = false              // Disable Geolocation
+
+    network.dns.disablePrefetch = true
+    network.prefetch-next = false
