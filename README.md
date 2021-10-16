@@ -8,25 +8,19 @@ Firefox advanced settings for increased privacy and security.
     network.trr.uri = https://dns.paesa.es/dns-query{?dns}
     network.trr.useGET = true
 
-## Enable Encrypted Client Hello
-
-    network.dns.echconfig.enabled = true
-    network.dns.use_https_rr_as_altsvc = true
-
 ## Enable HTTP3/QUIC
 
     network.http.http3.enabled = true
 
-## Enable TLS Delegated Credentials
+## SSL/TLS
 
+    // Disable TLS 1.0 and TLS 1.1
+    security.tls.version.min = 3
+    
+    // Enable TLS Delegated Credentials
     security.tls.enable_delegated_credentials = true
 
-## Disable TLS 1.0 and TLS 1.1
-
-    security.tls.version.min = 3
-
-## Disable Weak TLS Ciphersuites
-
+    // Disable Weak Ciphersuites
     security.ssl3.ecdhe_ecdsa_aes_128_sha = false
     security.ssl3.ecdhe_ecdsa_aes_256_sha = false
     security.ssl3.dhe_rsa_aes_128_sha = false
@@ -39,23 +33,26 @@ Firefox advanced settings for increased privacy and security.
     security.ssl3.rsa_aes_256_sha = false
     security.ssl3.rsa_des_ede3_sha = false
 
-## Disable OCSP Checking
-
+    // Disable OCSP
     security.OCSP.enabled = 0
     security.OCSP.require = false
 
-## Enforce CRLite Revocation Checks
-
+    // Enforce CRLite for revocation checks
     security.pki.crlite_mode = 2
+
+    // Enable Encrypted Client Hello (ECH/ESNI)
+    network.dns.echconfig.enabled = true
+    network.dns.use_https_rr_as_altsvc = true
+
+## Enable HTTPS-Only Mode
+
+    dom.security.https_only_mode = true
+    dom.security.https_only_mode_ever_enabled = true
 
 ## Resist Fingerprinting
 
     privacy.resistFingerprinting = true
     privacy.spoof_english = 2
-
-## Disable Battery Status API
-
-    dom.battery.enabled = false
 
 ## Reject Third-Party Cookies
 
@@ -96,11 +93,6 @@ Firefox advanced settings for increased privacy and security.
     privacy.userContext.enabled = true
     privacy.userContext.ui.enabled = true
 
-## Enable HTTPS-Only Mode
-
-    dom.security.https_only_mode = true
-    dom.security.https_only_mode_ever_enabled = true
-
 ## Disable Disk Persistence
 
     browser.cache.disk.enable = false
@@ -110,6 +102,7 @@ Firefox advanced settings for increased privacy and security.
 
     pdfjs.enableScripting = false    // Disable Javascript on PDF files
     geo.enabled = false              // Disable Geolocation
+    dom.battery.enabled = false      // Disable Battery Status API
 
     network.dns.disablePrefetch = true
     network.prefetch-next = false
