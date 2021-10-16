@@ -37,7 +37,7 @@ Firefox advanced settings for increased privacy and security.
     security.OCSP.enabled = 0
     security.OCSP.require = false
 
-    // Enforce CRLite for revocation checks
+    // Enforce CRLite Revocation Checks
     security.pki.crlite_mode = 2
 
     // Enable Encrypted Client Hello (ECH/ESNI)
