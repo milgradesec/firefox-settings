@@ -8,6 +8,11 @@ Firefox advanced settings for increased privacy and security.
     network.trr.uri = https://dns.paesa.es/dns-query{?dns}
     network.trr.useGET = true
 
+## Enable HTTPS-Only Mode
+
+    dom.security.https_only_mode = true
+    dom.security.https_only_mode_ever_enabled = true
+
 ## Enable HTTP3/QUIC
 
     network.http.http3.enabled = true
@@ -43,11 +48,6 @@ Firefox advanced settings for increased privacy and security.
     // Enable Encrypted Client Hello (ECH/ESNI)
     network.dns.echconfig.enabled = true
     network.dns.use_https_rr_as_altsvc = true
-
-## Enable HTTPS-Only Mode
-
-    dom.security.https_only_mode = true
-    dom.security.https_only_mode_ever_enabled = true
 
 ## Resist Fingerprinting
 
