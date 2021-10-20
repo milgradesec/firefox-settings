@@ -4,7 +4,7 @@ Firefox advanced settings for increased privacy and security.
 
 ## Configure DNS over HTTPS
 
-    network.trr.mode = 2
+    network.trr.mode = 3
     network.trr.uri = https://dns.paesa.es/dns-query{?dns}
     network.trr.useGET = true
 
