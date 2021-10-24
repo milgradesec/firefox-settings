@@ -4,7 +4,9 @@ Firefox advanced settings for increased privacy and security.
 
 ## Configure DNS over HTTPS
 
+    // Use DoH without fallback to insecure DNS
     network.trr.mode = 3
+
     network.trr.uri = https://dns.paesa.es/dns-query{?dns}
     network.trr.useGET = true
 
