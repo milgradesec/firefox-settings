@@ -7,7 +7,7 @@ Firefox advanced settings for increased privacy and security.
     // Use DoH without fallback to insecure DNS
     network.trr.mode = 3
 
-    network.trr.uri = https://dns.paesa.es/dns-query{?dns}
+    network.trr.uri = https://dns.paesa.es/dns-query
     network.trr.useGET = true
 
 ## Enable HTTPS-Only Mode
@@ -50,6 +50,11 @@ Firefox advanced settings for increased privacy and security.
     // Enable Encrypted Client Hello (ECH/ESNI)
     network.dns.echconfig.enabled = true
     network.dns.use_https_rr_as_altsvc = true
+
+## Sandbox
+
+    fission.autostart = true
+    security.sandbox.content.win32k-disable = true
 
 ## Resist Fingerprinting
 
@@ -108,3 +113,5 @@ Firefox advanced settings for increased privacy and security.
 
     network.dns.disablePrefetch = true
     network.prefetch-next = false
+    
+    gfx.webrender.all = true // Enable newer GPU renderer written in Rust
