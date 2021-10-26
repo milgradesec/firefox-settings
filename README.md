@@ -53,7 +53,7 @@ Firefox advanced settings for increased privacy and security.
 
 ## Sandbox
 
-    // Enable Site Isolation Sandboxing
+    // Enable Site Isolation
     fission.autostart = true
 
     // Windows only process hardening
