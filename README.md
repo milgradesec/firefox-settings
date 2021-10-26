@@ -53,7 +53,10 @@ Firefox advanced settings for increased privacy and security.
 
 ## Sandbox
 
+    // Enable Site Isolation Sandboxing
     fission.autostart = true
+
+    // Windows only process hardening
     security.sandbox.content.win32k-disable = true
 
 ## Resist Fingerprinting
@@ -114,4 +117,4 @@ Firefox advanced settings for increased privacy and security.
     network.dns.disablePrefetch = true
     network.prefetch-next = false
     
-    gfx.webrender.all = true // Enable newer GPU renderer written in Rust
+    gfx.webrender.all = true // New GPU renderer written in Rust
