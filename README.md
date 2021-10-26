@@ -62,6 +62,7 @@ Firefox advanced settings for increased privacy and security.
     security.sandbox.content.shadow-stack.enabled = true
     security.sandbox.gmp.shadow-stack.enabled = true
     security.sandbox.gpu.shadow-stack.enabled = true
+    security.sandbox.gpu.level = 1
 
 ## Resist Fingerprinting
 
