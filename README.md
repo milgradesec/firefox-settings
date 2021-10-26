@@ -59,6 +59,8 @@ Firefox advanced settings for increased privacy and security.
     // Windows only process hardening
     security.sandbox.content.win32k-disable = true // Experimental
     security.sandbox.gmp.win32k-disable = true // Experimental
+    security.sandbox.content.shadow-stack.enabled = true // Experimental
+    security.sandbox.gmp.shadow-stack.enabled = true // Experimental
 
 ## Resist Fingerprinting
 
@@ -118,4 +120,4 @@ Firefox advanced settings for increased privacy and security.
     network.dns.disablePrefetch = true
     network.prefetch-next = false
     
-    gfx.webrender.all = true // New GPU renderer written in Rust
+    gfx.webrender.all = true // New GPU renderer written in Rust - Experimental
