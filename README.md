@@ -7,7 +7,7 @@ Firefox advanced settings for increased privacy and security.
     // Use DoH without fallback to insecure DNS
     network.trr.mode = 3
 
-    network.trr.uri = https://dns.paesa.es/dns-query
+    network.trr.uri = https://dns.paesa.es/dns-query // Use your prefered DoH server
     network.trr.useGET = true
 
 ## Enable HTTPS-Only Mode
@@ -56,11 +56,12 @@ Firefox advanced settings for increased privacy and security.
     // Enable Site Isolation
     fission.autostart = true
 
-    // Windows only process hardening
-    security.sandbox.content.win32k-disable = true // Experimental
-    security.sandbox.gmp.win32k-disable = true // Experimental
-    security.sandbox.content.shadow-stack.enabled = true // Experimental
-    security.sandbox.gmp.shadow-stack.enabled = true // Experimental
+    // Windows only process hardening - Experimental
+    security.sandbox.content.win32k-disable = true
+    security.sandbox.gmp.win32k-disable = true
+    security.sandbox.content.shadow-stack.enabled = true
+    security.sandbox.gmp.shadow-stack.enabled = true
+    security.sandbox.gpu.shadow-stack.enabled = true
 
 ## Resist Fingerprinting
 
