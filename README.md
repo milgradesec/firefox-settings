@@ -58,6 +58,7 @@ Firefox advanced settings for increased privacy and security.
 
     // Windows only process hardening
     security.sandbox.content.win32k-disable = true
+    security.sandbox.gmp.win32k-disable = true
 
 ## Resist Fingerprinting
 
