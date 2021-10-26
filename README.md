@@ -57,8 +57,8 @@ Firefox advanced settings for increased privacy and security.
     fission.autostart = true
 
     // Windows only process hardening
-    security.sandbox.content.win32k-disable = true
-    security.sandbox.gmp.win32k-disable = true
+    security.sandbox.content.win32k-disable = true // Experimental
+    security.sandbox.gmp.win32k-disable = true // Experimental
 
 ## Resist Fingerprinting
 
