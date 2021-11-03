@@ -1,6 +1,8 @@
-# Firefox Advanced Settings
+# 🦊 Firefox Advanced Settings
 
-Firefox advanced settings for increased privacy and security.
+🦊 Firefox advanced settings for increased privacy 👁️  and security 🔒.
+
+🚧 Work in progress...
 
 ## Configure DNS over HTTPS
 
