@@ -51,6 +51,7 @@
 
     // Enable Encrypted Client Hello (ECH/ESNI)
     network.dns.echconfig.enabled = true
+    network.dns.http3_echconfig.enabled = true
     network.dns.use_https_rr_as_altsvc = true
 
 ## Sandbox
