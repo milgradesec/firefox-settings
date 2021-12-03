@@ -118,11 +118,11 @@
 
 ## Others
 
+    gfx.webrender.all = true    // New GPU renderer written in Rust
+
     pdfjs.enableScripting = false    // Disable Javascript on PDF files
     geo.enabled = false              // Disable Geolocation
     dom.battery.enabled = false      // Disable Battery Status API
 
     network.dns.disablePrefetch = true
     network.prefetch-next = false
-    
-    gfx.webrender.all = true // New GPU renderer written in Rust - Experimental
