@@ -88,8 +88,7 @@
     // Enable First-Party Isolation
     privacy.firstparty.isolate = true
 
-## Resist Fingerprinting
-
+    // Resist browser fingerprinting
     privacy.resistFingerprinting = true
     privacy.spoof_english = 2
 
