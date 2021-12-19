@@ -2,8 +2,6 @@
 
 🦊 Firefox advanced settings for increased privacy 👁️  and security 🔒.
 
-🚧 Work in progress...
-
 ## Configure DNS over HTTPS
 
     // Use DoH without fallback to insecure DNS
@@ -96,7 +94,6 @@
 ## Disable Pocket
 
     extensions.pocket.enabled = false
-
 <!-- ## Enable Containers
 
     privacy.userContext.enabled = true
