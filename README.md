@@ -111,8 +111,9 @@
     // Disable Javascript on PDF files
     pdfjs.enableScripting = false
     
-    geo.enabled = false          // Disable Geolocation
-    dom.battery.enabled = false  // Disable Battery Status API
-
+    // Disable pre-fetching
     network.dns.disablePrefetch = true
     network.prefetch-next = false
+
+    geo.enabled = false          // Disable Geolocation
+    dom.battery.enabled = false  // Disable Battery Status API
