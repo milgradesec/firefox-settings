@@ -17,7 +17,7 @@
     dom.security.https_only_mode = true
     dom.security.https_only_mode_ever_enabled = true
 
-## Enable HTTP3 (HTTP over QUIC) Protocol
+## Enable HTTP3 (HTTP-over-QUIC) Protocol
 
     network.http.http3.enabled = true
 
