@@ -91,6 +91,10 @@
     privacy.resistFingerprinting = true
     privacy.spoof_english = 2
 
+    // Disable pre-fetching
+    network.dns.disablePrefetch = true
+    network.prefetch-next = false
+
 ## Disable Pocket
 
     extensions.pocket.enabled = false
@@ -110,10 +114,6 @@
 
     // Disable Javascript on PDF files
     pdfjs.enableScripting = false
-    
-    // Disable pre-fetching
-    network.dns.disablePrefetch = true
-    network.prefetch-next = false
 
     geo.enabled = false          // Disable Geolocation
     dom.battery.enabled = false  // Disable Battery Status API
