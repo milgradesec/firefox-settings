@@ -113,3 +113,6 @@
     
     geo.enabled = false          // Disable Geolocation
     dom.battery.enabled = false  // Disable Battery Status API
+
+    network.dns.disablePrefetch = true
+    network.prefetch-next = false
