@@ -9,7 +9,8 @@
     // Use DoH without fallback to insecure DNS
     network.trr.mode = 3
 
-    network.trr.uri = https://dns.paesa.es/dns-query // Use your prefered DoH server
+    // Use your prefered DoH server
+    network.trr.uri = https://dns.paesa.es/dns-query
     network.trr.useGET = true
 
 ## Enable HTTPS-Only Mode
