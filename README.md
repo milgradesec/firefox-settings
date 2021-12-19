@@ -17,11 +17,11 @@
     dom.security.https_only_mode = true
     dom.security.https_only_mode_ever_enabled = true
 
-## Enable HTTP3/QUIC
+## Enable HTTP3 (HTTP over QUIC) Protocol
 
     network.http.http3.enabled = true
 
-## SSL/TLS
+## SSL/TLS Hardening
 
     // Disable TLS 1.0 and TLS 1.1
     security.tls.version.min = 3
@@ -29,7 +29,7 @@
     // Enable TLS Delegated Credentials
     security.tls.enable_delegated_credentials = true
 
-    // Disable Weak Ciphersuites
+    // Disable weak ciphersuites
     security.ssl3.ecdhe_ecdsa_aes_128_sha = false
     security.ssl3.ecdhe_ecdsa_aes_256_sha = false
     security.ssl3.dhe_rsa_aes_128_sha = false
@@ -42,17 +42,17 @@
     security.ssl3.rsa_aes_256_sha = false
     security.ssl3.rsa_des_ede3_sha = false
 
-    // Disable OCSP
-    security.OCSP.enabled = 0
-    security.OCSP.require = false
-
-    // Enforce CRLite Revocation Checks
-    security.pki.crlite_mode = 2
-
     // Enable Encrypted Client Hello (ECH/ESNI)
     network.dns.echconfig.enabled = true
     network.dns.http3_echconfig.enabled = true
     network.dns.use_https_rr_as_altsvc = true
+
+    // Disable OCSP checks
+    security.OCSP.enabled = 0
+    security.OCSP.require = false
+
+    // Enforce CRLite revocation checks
+    security.pki.crlite_mode = 2
 
 ## Sandbox
 
@@ -67,25 +67,31 @@
     security.sandbox.gpu.shadow-stack.enabled = true
     security.sandbox.gpu.level = 1
 
-## Resist Fingerprinting
+## Privacy Tweaks
 
-    privacy.resistFingerprinting = true
-    privacy.spoof_english = 2
-
-## Reject Third-Party Cookies
-
+    // Reject all Third-Party cookies
     network.cookie.cookieBehavior = 1
 
-## Tracking Protection
+    // Disable Referer header
+    network.http.sendRefererHeader = 0
 
+    // Send DoNotTrack
+    privacy.donottrackheader.enabled = true
+
+    // Configure Tracking Protection
     privacy.trackingprotection.enabled = true
     privacy.trackingprotection.fingerprinting.enabled = true
     privacy.trackingprotection.cryptomining.enabled = true
     privacy.trackingprotection.socialtracking.enabled = true
     privacy.socialtracking.block_cookies.enabled = true
+
+    // Enable First-Party Isolation
     privacy.firstparty.isolate = true
-    privacy.donottrackheader.enabled = true
-    network.http.sendRefererHeader = 0
+
+## Resist Fingerprinting
+
+    privacy.resistFingerprinting = true
+    privacy.spoof_english = 2
 
 ## Disable Telemetry
 
