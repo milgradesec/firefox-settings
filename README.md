@@ -93,42 +93,29 @@
     privacy.resistFingerprinting = true
     privacy.spoof_english = 2
 
-## Disable Telemetry
-
-    toolkit.telemetry.enabled = false
-    toolkit.telemetry.unified = false
-    toolkit.telemetry.archive.enabled = false
-    toolkit.telemetry.shutdownPingSender.enabled = false
-    toolkit.telemetry.firstShutdownPing.enabled = false
-    toolkit.telemetry.updatePing.enabled = false
-    toolkit.telemetry.newProfilePing.enabled = false
-    toolkit.telemetry.bhrPing.enabled = false
-    browser.ping-centre.telemetry = false
-    browser.newtabpage.activity-stream.feeds.telemetry = false
-    browser.newtabpage.activity-stream.telemetry = false
-
 ## Disable Pocket
 
     extensions.pocket.enabled = false
-    services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includePocket = false
 
-## Enable Containers
+<!-- ## Enable Containers
 
     privacy.userContext.enabled = true
-    privacy.userContext.ui.enabled = true
-
-## Disable Disk Persistence
-
-    browser.cache.disk.enable = false
-    browser.privatebrowsing.forceMediaMemoryCache = true
+    privacy.userContext.ui.enabled = true -->
 
 ## Others
 
-    gfx.webrender.all = true    // New GPU renderer written in Rust
+    // Disable disk persistence
+    browser.cache.disk.enable = false
+    browser.privatebrowsing.forceMediaMemoryCache = true
 
-    pdfjs.enableScripting = false    // Disable Javascript on PDF files
+    // Use new GPU renderer written in Rust
+    gfx.webrender.all = true 
+
+    // Disable Javascript on PDF files
+    pdfjs.enableScripting = false
+
     geo.enabled = false              // Disable Geolocation
     dom.battery.enabled = false      // Disable Battery Status API
 
-    network.dns.disablePrefetch = true
-    network.prefetch-next = false
+    <!-- network.dns.disablePrefetch = true
+    network.prefetch-next = false -->
