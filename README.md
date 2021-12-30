@@ -2,7 +2,7 @@
 
 🦊 Firefox advanced settings for increased privacy 👁️  and security 🔒.
 
-## How to use it?
+## How to use
 
 Open `about:config` in Firefox and search for configurations below to update your settings.
 
