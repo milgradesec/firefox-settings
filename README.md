@@ -6,7 +6,9 @@
 
 Open `about:config` in Firefox and search for configurations below to update your settings.
 
-## Configure DNS over HTTPS
+## Settings
+
+### Configure DNS over HTTPS
 
     // Use DoH without fallback to insecure DNS
     network.trr.mode = 3
@@ -15,16 +17,16 @@ Open `about:config` in Firefox and search for configurations below to update you
     network.trr.uri = https://dns.paesa.es/dns-query
     network.trr.useGET = true
 
-## Enable HTTPS-Only Mode
+### Enable HTTPS-Only Mode
 
     dom.security.https_only_mode = true
     dom.security.https_only_mode_ever_enabled = true
 
-## Enable HTTP3 (HTTP-over-QUIC) Protocol
+### Enable HTTP3 (HTTP-over-QUIC) Protocol
 
     network.http.http3.enabled = true
 
-## SSL/TLS Hardening
+### SSL/TLS Hardening
 
     // Disable TLS 1.0 and TLS 1.1
     security.tls.version.min = 3
@@ -57,7 +59,7 @@ Open `about:config` in Firefox and search for configurations below to update you
     // Enforce CRLite revocation checks
     security.pki.crlite_mode = 2
 
-## Sandbox
+### Sandbox
 
     // Enable Site Isolation
     fission.autostart = true
@@ -70,7 +72,7 @@ Open `about:config` in Firefox and search for configurations below to update you
     security.sandbox.gpu.shadow-stack.enabled = true
     security.sandbox.gpu.level = 1
 
-## Privacy Tweaks
+### Privacy Tweaks
 
     // Reject all Third-Party cookies
     network.cookie.cookieBehavior = 1
@@ -99,7 +101,7 @@ Open `about:config` in Firefox and search for configurations below to update you
     network.dns.disablePrefetch = true
     network.prefetch-next = false
 
-## Disable Pocket
+### Disable Pocket
 
     extensions.pocket.enabled = false
 <!-- ## Enable Containers
@@ -107,7 +109,7 @@ Open `about:config` in Firefox and search for configurations below to update you
     privacy.userContext.enabled = true
     privacy.userContext.ui.enabled = true -->
 
-## Others
+### Others
 
     // Disable disk persistence
     browser.cache.disk.enable = false
