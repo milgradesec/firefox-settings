@@ -2,6 +2,10 @@
 
 🦊 Firefox advanced settings for increased privacy 👁️  and security 🔒.
 
+## How to use it?
+
+Open `about:config` in Firefox and search for configurations below to update your settings.
+
 ## Configure DNS over HTTPS
 
     // Use DoH without fallback to insecure DNS
