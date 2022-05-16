@@ -59,6 +59,13 @@ Open `about:config` in Firefox and search for configurations below to update you
     // Enforce CRLite revocation checks
     security.pki.crlite_mode = 2
 
+### Disable JIT
+
+    javascript.options.baselinejit
+    javascript.options.ion
+    javascript.options.wasm
+    javascript.options.asmjs
+
 ### Sandbox
 
     // Enable Site Isolation
