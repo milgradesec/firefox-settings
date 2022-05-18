@@ -1,6 +1,6 @@
 # 🦊 Firefox Advanced Settings
 
-🦊 Firefox advanced settings for increased privacy 👁️  and security 🔒.
+🦊 Firefox advanced settings for increased privacy and hardened security.
 
 ## How to use
 
