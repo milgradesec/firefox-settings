@@ -109,6 +109,9 @@ Open `about:config` in Firefox and search for configurations below to update you
     network.dns.disablePrefetch = true
     network.prefetch-next = false
 
+    // Remove tracking identifiers from urls
+    privacy.query_stripping.enabled = true
+
 ### Disable Pocket
 
     extensions.pocket.enabled = false
