@@ -65,6 +65,7 @@ Open `about:config` in Firefox and search for configurations below to update you
     javascript.options.baselinejit = false
     javascript.options.wasm_baselinejit = false
     javascript.options.ion = false
+
 <!-- javascript.options.asmjs -->
 
 ### Sandbox
