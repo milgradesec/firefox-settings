@@ -61,11 +61,11 @@ Open `about:config` in Firefox and search for configurations below to update you
 
 ### Javascript Hardening
 
-    // Disable JIT
-    javascript.options.baselinejit
-    javascript.options.ion
-    javascript.options.wasm
-    javascript.options.asmjs
+    // Disable Just-In-Time (JIT) compiler - May break things
+    javascript.options.baselinejit = false
+    javascript.options.wasm_baselinejit = false
+    javascript.options.ion = false
+<!-- javascript.options.asmjs -->
 
 ### Sandbox
 
