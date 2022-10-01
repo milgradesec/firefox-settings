@@ -24,7 +24,7 @@ Open `about:config` in Firefox and search for configurations below to update you
 
 ### Enable HTTP3 (HTTP-over-QUIC) Protocol
 
-    network.http.http3.enabled = true
+    network.http.http3.enable = true
 
 ### SSL/TLS Hardening
 
