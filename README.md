@@ -51,6 +51,7 @@ Open `about:config` in Firefox and search for configurations below to update you
     network.dns.echconfig.enabled = true
     network.dns.http3_echconfig.enabled = true
     network.dns.use_https_rr_as_altsvc = true
+    security.tls.ech.grease_http3 = true
 
     // Disable OCSP checks
     security.OCSP.enabled = 0
